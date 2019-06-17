@@ -1,0 +1,325 @@
+html {
+margin:0;
+background:url(../image/wallpaper.jpg);
+background-size:100%;
+background-attachment:fixed;
+overflow-x:hidden
+}
+
+body {
+margin:0;
+font-family:Play,sans-serif;
+overflow-x:hidden
+}
+
+header {
+margin:0;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:end;
+-ms-flex-pack:end;
+justify-content:flex-end
+}
+
+.head-menu {
+height:70px;
+width:80%;
+margin:0;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+-webkit-box-pack:end;
+-ms-flex-pack:end;
+justify-content:flex-end
+}
+
+.head-logo {
+height:70px;
+width:200px;
+background:#fff;
+margin:0
+}
+
+.logo {
+background-image:url(../image/logo.png);
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+height:70px;
+width:200px
+}
+
+.head-tab {
+height:50px;
+width:100%;
+color:#fff;
+background:rgba(48,55,58,0.6);
+margin:0;
+-ms-flex-item-align:end;
+align-self:flex-end;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+padding-right:20%
+}
+
+.head-tab-bottom {
+height:50px;
+width:20%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.head-tab-bottom a {
+font-size:18px
+}
+
+.main {
+margin:0
+}
+
+.advantages {
+width:100%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+-webkit-box-align:end;
+-ms-flex-align:end;
+align-items:flex-end;
+-ms-flex-pack:distribute;
+justify-content:space-around
+}
+
+.car-wash {
+height:260px;
+width:15%;
+margin-top:24px;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-ms-flex-direction:column;
+flex-direction:column
+}
+
+.car-wash-photo {
+height:80%;
+width:100%;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+border-top:1px solid rgba(48,55,58,0.6);
+border-left:1px solid rgba(48,55,58,0.6);
+border-right:1px solid rgba(48,55,58,0.6);
+border-radius:1%
+}
+
+.car-wash-text {
+height:15%;
+width:90%;
+background:rgba(48,55,58,0.6);
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-ms-flex-item-align:center;
+align-self:center;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center;
+margin-top:3%
+}
+
+.advantages-list {
+width:100%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.advantages-list-menu {
+margin:40px 0;
+width:90%;
+background:rgba(255,255,255,0.8);
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+border-radius:15px;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+padding-bottom:35px;
+transition:all .3s ease-in-out;
+overflow:hidden
+}
+
+.advantages-list-menu-left {
+width:50%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.to-left-part {
+display:none
+}
+
+h3 {
+font-size:150%;
+text-align:center;
+margin:45px 0 20px
+}
+
+.advantages-list-menu-right {
+height:100%;
+width:50%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.advantages-punkt {
+list-style:none;
+padding:0;
+width:90%;
+margin:0;
+text-align:center
+}
+
+.advantages-punkt li {
+padding:8px 0;
+font-family:Play,Verdana,Arial,Helvetica,sans-serif;
+background:rgba(48,55,58,0.2);
+font-size:18px;
+transition:all .5s ease-in-out
+}
+
+.advantages-punkt li a {
+display:block;
+color:#000;
+text-decoration:none;
+position:relative;
+font-weight:500
+}
+
+.advantages-punkt li:hover {
+background:rgba(48,55,58,0.9);
+color:#fff;
+cursor:pointer
+}
+
+ul.advantages-punkt li.selected-service {
+background:rgba(48,55,58,.75)
+}
+
+.advantages-list-menu-right-main {
+padding-top:91px;
+height:95%;
+width:95%
+}
+
+.advantages-description {
+font-size:18px;
+padding-top:10px
+}
+
+footer {
+height:200px;
+width:100%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-ms-flex-direction:column;
+flex-direction:column;
+-webkit-box-pack:end;
+-ms-flex-pack:end;
+justify-content:flex-end;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+.footer-logo {
+width:300px;
+background:#fff;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-ms-flex-line-pack:center;
+align-content:center;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center
+}
+
+.footer-slide {
+height:30px;
+width:100%;
+background:#30373a;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center
+}
+
+a {
+text-decoration:none;
+color:#fff;
+text-shadow:2px 2px 25px #000
+}
+
+.select-wash-info {
+font-size:20px;
+width:100%;
+text-align:center
+}

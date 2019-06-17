@@ -1,0 +1,356 @@
+@media (min-width: 1720px) {
+.info {
+width:90%;
+padding:0;
+font-size:22px
+}
+
+.head-tab-bottom a {
+font-size:24px
+}
+
+.logo {
+height:100%;
+width:100%
+}
+
+.head-logo {
+width:400px;
+height:85px
+}
+
+.head-tab {
+padding-right:10%
+}
+
+.head-menu {
+height:85px
+}
+
+.wash-box {
+padding:0
+}
+
+.footer-logo {
+height:30%
+}
+}
+
+@media screen and (max-width: 420px) {
+html {
+background-size:cover
+}
+
+footer {
+height:270px
+}
+
+.head-tab {
+padding:0
+}
+
+.head-tab-bottom a {
+font-size:19px
+}
+}
+
+@media (max-width: 950px) {
+.head-tab {
+padding:0
+}
+
+.car-wash {
+height:200px;
+width:18%
+}
+
+html {
+background-size:cover
+}
+}
+
+@media (min-width: 951px) and (max-width: 1040px) {
+html {
+background-size:cover
+}
+
+.car-wash {
+height:200px;
+width:18%
+}
+}
+
+@media (max-width: 730px) {
+.head-tab-bottom {
+width:24%
+}
+
+.advantages-punkt li {
+font-size:14px
+}
+
+footer {
+height:105px
+}
+}
+
+@media (max-width: 660px) {
+.advantages {
+flex-wrap:wrap
+}
+
+.advantage-selected-list-menu .advantages-list-menu-left {
+left:-110%
+}
+
+.advantage-selected-list-menu .advantages-list-menu-right {
+left:0
+}
+
+.advantages-list-menu {
+display:block;
+position:relative
+}
+
+.advantages-list-menu-left,.advantages-list-menu-right {
+position:absolute;
+top:0;
+transition:all .5s ease-in-out;
+width:100%
+}
+
+.advantages-list-menu-left {
+left:0
+}
+
+.advantages-list-menu-right {
+left:110%;
+height:auto
+}
+
+.advantages-list-menu-right-main {
+padding:50px 10px 0
+}
+
+.to-left-part {
+position:absolute;
+top:0;
+left:0;
+margin:0;
+display:flex;
+align-items:center;
+height:50px;
+padding-left:15px;
+cursor:pointer
+}
+
+.head-tab-bottom {
+width:35%
+}
+
+.car-wash {
+height:170px;
+width:30%
+}
+
+.advantages-punkt li {
+font-size:14px
+}
+}
+
+@media (max-width: 1200px) {
+.head-tab-bottom {
+width:35%
+}
+}
+
+@media (max-width: 550px) {
+.logo {
+width:100%;
+height:100%
+}
+
+.head-menu {
+width:99%
+}
+
+.car-wash {
+height:100px
+}
+
+h4 {
+font-size:20px
+}
+
+.footer-logo {
+height:100%
+}
+}
+
+@media (max-width: 375px) {
+div.head-tab-bottom a {
+font-size:14px
+}
+
+h3 {
+font-size:17px;
+margin:20px
+}
+
+.select-wash-info {
+font-size:10px;
+margin-top:60%
+}
+
+.advantages-description {
+font-size:7px
+}
+}
+
+@media (max-width: 419px) {
+.head-tab-bottom a {
+font-size:16px
+}
+
+.car-wash-text a {
+font-size:12px
+}
+
+.select-wash-info {
+font-size:16px;
+margin-top:60%
+}
+
+.advantages-description {
+font-size:10px
+}
+
+h3 {
+font-size:17px;
+margin:20px
+}
+.footer-slide p {
+font-size: 50%
+}
+}
+
+@media (max-width: 320px) {
+.head-tab {
+padding:0
+}
+.footer-slide p {
+font-size: 50%
+}
+div.head-tab-bottom a {
+font-size:11px
+}
+
+.main-text {
+font-size:4px;
+height:50px
+}
+
+.info {
+font-size:8px;
+width:100%
+}
+
+body {
+background-size:cover
+}
+
+.logo {
+width:100%
+}
+
+#map {
+width:100%
+}
+
+html {
+background-size:cover
+}
+
+header {
+width:99%
+}
+
+.img {
+height:140px
+}
+
+.info-container h3 {
+font-size:16px
+}
+
+.address,.contacts {
+font-size:10px
+}
+
+.select-wash-info {
+font-size:10px;
+margin-top:60%
+}
+
+.advantages-description {
+font-size:7px
+}
+
+h3 {
+font-size:17px;
+margin:20px
+}
+}
+
+.to-left-part svg {
+cursor:pointer;
+overflow:visible;
+margin-right:10px
+}
+
+.to-left-part polygon,.to-left-part path {
+transition:all .5s cubic-bezier(.2,1,.3,1)
+}
+
+.to-left-part:hover polygon,.to-left-part:hover path {
+transition:all 1s cubic-bezier(.2,1,.3,1);
+fill:#FF4136
+}
+
+.to-left-part:hover .arrow {
+animation:arrow-anim 2.5s cubic-bezier(.2,1,.3,1) infinite
+}
+
+.to-left-part:hover .arrow-fixed {
+animation:arrow-fixed-anim 2.5s cubic-bezier(.2,1,.3,1) infinite
+}
+
+@keyframes arrow-anim {
+0% {
+opacity:1;
+transform:translateX(0)
+}
+
+5% {
+transform:translateX(-0.1rem)
+}
+
+100% {
+transform:translateX(1rem);
+opacity:0
+}
+}
+
+@keyframes arrow-fixed-anim {
+5% {
+opacity:0
+}
+
+20% {
+opacity:.4
+}
+
+100% {
+opacity:1
+}
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139428195-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139428195-1');
+</script>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/services-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="css/services-media.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png" type="image/x-icon">
+    <meta name="description" content="Автомийки Львова Шипшина, найкраща якість роботи з мийки автомобілів, полірування, хімчистки, захисне покриття, віск тощо.Послуги Автомийки Львів: адреси, номера телефонів, графік роботи">
+    <meta name="author" content="Pidkostelnyi@gmail.com">
+    <meta name="keywords" content="ручна, безконтактна, поверхнева, комплексна, автомийка, хімчистка, поліровка, віск, захисне покриття, полірування, мийка, автомийки, львів, де помити машину, шипшина, мийка шипшина, сихів, топольна, ціни на мийку, чиста машина, помити, автомийки львова, автомийки львів, автомийки у львові, Автомийки Шипшина">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Наші послуги | Автомийки Львів - Brilliance and Clean! </title>
+</head>
+
+<body>
+    <style>
+        .car-wash {
+            transition: all .3s ease-in-out;
+        }
+
+        .selected-wash {
+            box-shadow: 0 0 17px 6px rgba(255, 255, 255, .5), inset 0 0 20px 10px rgba(255, 255, 255, .4);
+        }
+
+        @media screen and (max-width: 600px) {}
+
+    </style>
+    <header>
+        <div class="head-menu">
+            <div class="head-logo">
+                <div class="logo"></div>
+            </div>
+            <div class="head-tab">
+                <div class="head-tab-bottom"><a href="index.html">Головна</a></div>
+                <div class="head-tab-bottom"><a href="contacts.html">Контакти</a></div>
+                <!--<div class="head-tab-bottom"><a href="index.html#advantages">Переваги</a></div>-->
+                <div class="head-tab-bottom"><a href="services.html">Послуги</a></div>
+                <!--<div class="head-tab-bottom"><a href="index.html#aboutUs">Про нас</a></div>-->
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="advantages">
+
+        </div>
+
+
+        <div class="advantages-list">
+            <div class="advantages-list-menu">
+                <div class="advantages-list-menu-left">
+                    <h3>Ручна та безконтактна поверхнева та комплексна мийка автомобілів</h3>
+                    <ul class="advantages-punkt advantages-container">
+
+                    </ul>
+                    <h3>Додаткові послуги</h3>
+                    <ul class="advantages-punkt dop-advantages-container">
+
+                    </ul>
+                    <h3>Послуги мийки</h3>
+                    <ul class="advantages-punkt wash-advantages-container">
+
+                    </ul>
+                </div>
+                <div class="advantages-list-menu-right">
+                    <div class="advantages-list-menu-right-main">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <div class="logo"></div>
+        </div>
+        <div class="footer-slide">
+            <p name="Шипшина"> Copyright © All rights reserved 2019 | Автомийки Львів Brilliance and Clean!</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var carWash = [{
+                name: '\"Шипшина\"',
+                addressCity: "м.Львів",
+                addressStr: "вул. Стрийська 100",
+                phoneMain: '+38098 05 00 128',
+                phoneAdd: '+38067 71 39 211',
+                phoneMainDesc: '- запис на мийку',
+                phoneAddDesc: '- (поліровка, покриття, хімія)',
+                servicesList: [
+                    '<b>Детейлінг</b><br>(поліровка кузова, хімчистка салона, нанесення захисного покриття)'
+                ],
+                services: [],
+                //                image: "http://lviv.afisha-city.com.ua/res/img/uploading/650/1421612450.jpg"
+
+
+            },
+            {
+                name: '\"Шипшина\"',
+                addressCity: "м.Львів",
+                addressStr: "вул. Луганська 10А",
+                phoneMain: '+38098 29 88 635',
+                phoneMainDesc: '- запис на мийку',
+                services: [],
+
+
+            },
+            {
+                name: '\"Окко\"',
+                addressCity: "м.Львів",
+                addressStr: "вул. Червоної Калини 76а",
+                phoneMain: '+38067 71 39 211',
+                phoneMainDesc: '- запис на мийку',
+                services: [],
+
+
+            },
+            {
+                name: '\"DiVetro\"',
+                addressCity: "м.Львів",
+                addressStr: "вул. Червоної Калини 76а",
+                phoneMain: '+38067 80 16 574',
+                phoneMainDesc: '- запис на мийку',
+                services: [],
+
+            },
+            {
+                name: '\"Шипшина\"',
+                addressCity: "м.Львів",
+                addressStr: "вул.Замарстинівська 176а",
+                phoneMain: '+3898 94 41 477',
+                phoneMainDesc: '- запис на мийку',
+                services: [],
+            }
+        ];
+
+        $(document).ready(function() {
+
+            createWashes();
+
+
+        });
+
+
+
+        function createWashes() {
+            let $advantages = $('.advantages');
+            for (let i = 0; i < carWash.length; i++) {
+                let el = document.createElement('div');
+                let $el = $(el);
+                $el.addClass('car-wash');
+                $el.html(`
+                    <div class="car-wash-photo" style="background-image: url('${carWash[i].image || 'image/1.jpg'}')"></div>
+                    <div class="car-wash-text"><a>${carWash[i].name}</a></div>
+                `);
+                $advantages.append($el);
+                $el.click(() => {
+                    toLeftSide();
+                    $('.car-wash').removeClass('selected-wash');
+                    $el.addClass('selected-wash');
+                    createServices(carWash[i]);
+
+                });
+            }
+            $('.car-wash').first().click();
+        }
+
+        function createServices(wash) {
+            let services = [{
+                    text: '<strong><span style="color:red">"Новинка"</span> Експрес-мийка (поверхнева) - <span style="color:red">70-80грн</span></strong>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Мийка кузова активною піною <br>- коврики<br> - холодний віск<br> - витирання порогів</strong>.<br><br>"Експрес" - це швидка мийка з оптимальним співвідношенням ціни і якості. Вона проводиться апаратом високого тиску з нанесенням миючого засобу ..'
+                },
+                {
+                    text: '<strong>В Дощ - <span style="color:red">ЗНИЖКА 35%</span> на повну мийку</strong>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Миття кузова легкового Авто - <span style="color:red; font-weight: 800" >140грн</span> ',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br> - пороги<br> - віск<br> - натирання резини</strong><br><br>При всій своїй простоті виявляється дуже ефективною, коли автовласник має обмежені часові рамки або бажає заощадити'
+                },
+                {
+                    text: 'Повна мийка легкового авто - <span style="color:red; font-weight: 800">210грн</span> ',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br> - пороги<br> - віск<br> - натирання резини<br> - порохотяг<br> - натирання пластмаси<br> - миття вікон</strong><br><br>'
+                },
+                {
+                    text: 'Миття кузова авто 4х4 - <span style="color:red; font-weight: 800">150-160грн</span> ',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br> - пороги<br> - віск<br> - натирання резини</strong>'
+                },
+                {
+                    text: 'Повна мийка авто 4х4 - <span style="color:red; font-weight: 800">230-240грн</span> ',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br>- пороги<br> - віск<br> - натирання резини<br> - порохотяг<br> - натирання пластмаси<br> - миття вікон</strong>'
+                },
+                {
+                    text: 'Миття двигуна - <span style="color:red; font-weight:800">150грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- За запуск відповідальності не несемо!</strong>'
+                },
+                {
+                    text: 'Миття кузова буса - <span style="color:red; font-weight:800">150-170грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br> - пороги<br> - віск<br> - натирання резини</strong>'
+                },
+                {
+                    text: 'Повна мийка буса - <span style="color:red; font-weight:800">260-270грн</span> ',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Коврики<br> - пороги<br> - віск<br> - натирання резини<br> - порохотяг<br> - натирання пластмаси<br> - миття вікон</strong>'
+                },
+                //                {text: 'Детейлінг', videoUrl: '', photoUrl: '',description: ''},
+                //                {text: 'Перетяжка салонів', videoUrl: '', photoUrl: '',description: ''},
+                //                {text: 'Обклеювання антигравійною плівкою', videoUrl: '', photoUrl: '',description: ''},
+                //                {text: 'Ручна та безконтактна поверхнева та комплексна мийка автомобілів', videoUrl: '', photoUrl: '',description: ''},
+                //                
+            ];
+
+            let dopServices = [{
+                    text: 'Натирання шкіри - <span style="color:red; font-weight:800">60-70грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/gu5C2Z_zIjw',
+                    photoUrl: '',
+                    description: '<strong>- Відновлює до первинного стану<br> - надає розкішного зовнішнього вигляду<br> - попереджає появу плям та слідів<br> - кондиціонер не залишає жирних плям та не прилипає</strong>'
+                },
+                {
+                    text: 'Відмивання дисків(4шт) - <span style="color:red; font-weight:800">200грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/23UiSXEaciI',
+                    photoUrl: '',
+                    description: '<strong>- Відмивання нальоту від гальмівних колодок</strong>'
+                },
+                {
+                    text: 'Твердий віск - <span style="color:red; font-weight:800">200-220грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/9UHsZOx06vA',
+                    photoUrl: '',
+                    description: '<strong>- Захищає фарбу та надає блиску</strong>'
+                },
+                {
+                    text: 'Полімер-віск - <span style="color:red; font-weight:800">100грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/BL4g73ItwBA',
+                    photoUrl: '',
+                    description: '<strong>- Захищає елементи авто від зовнішнього впливу</strong>'
+                },
+                {
+                    text: 'Полірування фар - <span style="color:red; font-weight:800">200-500грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Відновлення до первинного стану</strong>'
+                },
+                {
+                    text: 'Натирання ущільнювачів силіконом, заприскування замків розморожувачем - <span style="color:red; font-weight:800">60грн</span>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+            ];
+
+            let washServices = [{
+                    text: 'Полірування кузова авто',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Ліквідовує дрібні подряпини, потертості<br> - маскує сколи фарби та глибокі царапини</strong>'
+                },
+                {
+                    text: 'Хімчистка салону авто',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Сидінь<br> - обшивки дверей та даху<br> - пластмасових елементів<br> - шкіри<br> - килими днища<br> - панелі приладів<br> - багажника</strong>'
+                },
+                {
+                    text: 'Відмивання бітумних плям',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Смоли</strong>'
+                },
+                {
+                    text: 'Чистка лакофарбового покриття',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Натирання твердим воском',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Захищає фарбу від солі та шкідливих впливів<br> - надає блиск</strong>'
+                },
+                {
+                    text: 'Підготовка авто до зими',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Відмивання двигуна',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Будь якої складності!</strong>'
+                },
+                {
+                    text: 'Чистка нікелю авто',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Відновлення блиску</strong>'
+                },
+                {
+                    text: 'Перепродажна підготовка',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Чистка вихлопних труб',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Відновлення від нагару<br> - надає блиску</strong>'
+                },
+                {
+                    text: '<strong>VIP - мийка</strong>',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'НАНО Покриття',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Ефект скла<br> - захищає від сонячного впливу<br> - бітумних плям<br> - надає фарбі блиску<br> - затирає дрібні царапини<br> - Захист на 1-3 роки</strong>'
+                },
+                {
+                    text: 'Покриття дисків',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Захист від нальоту<br> - блиск</strong>'
+                },
+                {
+                    text: 'Прання доріжок, килимів',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Покриття вікон авто',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Антидощ на 6 місяців</strong>'
+                },
+                {
+                    text: 'Полірування фар',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Антимухи',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: ''
+                },
+                {
+                    text: 'Ліквідація подряпини',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Шкіра<br> - панелі<br> - пороги</strong>'
+                },
+                {
+                    text: 'Покриття салону',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Покриття сидіть і підлоги</strong>'
+                },
+                {
+                    text: 'Фарбування шкіри',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Сидіння<br> - панельні прилади<br> - ковролін<br> - коврики</strong>'
+                },
+                {
+                    text: 'Заробляння пропалів від цигарок',
+                    videoUrl: 'https://www.youtube.com/embed/T3dvTInrXXM',
+                    photoUrl: '',
+                    description: '<strong>- Обшивка<br> - ковролін<br> - сидіння</strong>'
+                },
+            ];
+
+
+            let $servicesList = $('.advantages-container');
+            let $dopServicesList = $('.dop-advantages-container');
+            let $washServicesList = $('.wash-advantages-container');
+            let $rightSection = $('.advantages-list-menu-right-main');
+            let $container = $('.advantages-list-menu');
+
+            $servicesList.html('');
+            $dopServicesList.html('');
+            $washServicesList.html('');
+            $rightSection.html('<h4 class="select-wash-info">Оберіть послугу для того щоб побачити детальний опис та відео</h4>')
+
+            // if (wash.servicesList)
+            // for (let i = 0; i < wash.servicesList.length; i++) {
+            //
+            //     $servicesList.append(
+            //         `<li><strong>${wash.servicesList[i]}</strong></li>`
+            //     )
+            // }
+
+            for (let i = 0; i < services.length; i++) {
+                let el = document.createElement('li');
+                el.videoUrl = services[i].videoUrl;
+                el.innerHTML = services[i].text;
+                $(el).click(() => {
+                    $('ul.advantages-punkt li').removeClass('selected-service');
+                    el.classList.add('selected-service');
+                    let width = $rightSection.innerWidth() - 20;
+                    $rightSection.html(`
+                        <p class="to-left-part" onclick="setTimeout(toLeftSide, 200)"><svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="prev" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+          <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+      </g>
+  </svg>
+  До послуг</p>
+                        <div class="advantages-video">
+                            <iframe width="${width}" height="${width * 9 / 16}" src="${el.videoUrl}?autoplay=1&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="advantages-description">
+                            ${services[i].description}
+
+
+                        </div>
+                    `)
+                    updateAdvantagesHeight($rightSection);
+                    $container.addClass('advantage-selected-list-menu');
+
+                });
+                $servicesList.append(el);
+            }
+
+            for (let i = 0; i < dopServices.length; i++) {
+                let el2 = document.createElement('li');
+                el2.videoUrl = dopServices[i].videoUrl;
+                el2.innerHTML = dopServices[i].text;
+                $(el2).click(() => {
+                    $('ul.advantages-punkt li').removeClass('selected-service');
+                    el2.classList.add('selected-service');
+                    let width2 = $rightSection.innerWidth() - 20;
+                    $rightSection.html(`
+                        <p class="to-left-part" onclick="setTimeout(toLeftSide, 200)"><svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="prev" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+          <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+      </g>
+  </svg>
+  До послуг</p>
+                        <div class="advantages-video">
+                            <iframe width="${width2}" height="${width2 * 9 / 16}" src="${el2.videoUrl}?autoplay=1&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="advantages-description">
+                            ${dopServices[i].description}
+
+
+                        </div>
+                    `)
+                    updateAdvantagesHeight($rightSection);
+                    $container.addClass('advantage-selected-list-menu');
+
+                });
+                $dopServicesList.append(el2);
+            }
+            for (let i = 0; i < washServices.length; i++) {
+                let el3 = document.createElement('li');
+                el3.videoUrl = washServices[i].videoUrl;
+                el3.innerHTML = washServices[i].text;
+                $(el3).click(() => {
+                    $('ul.advantages-punkt li').removeClass('selected-service');
+                    el3.classList.add('selected-service');
+                    let width3 = $rightSection.innerWidth() - 20;
+                    $rightSection.html(`
+                        <p class="to-left-part" onclick="setTimeout(toLeftSide, 200)"><svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="prev" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+          <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+          <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+      </g>
+  </svg>
+  До послуг</p>
+                        <div class="advantages-video">
+                            <iframe width="${width3}" height="${width3 * 9 / 16}" src="${el3.videoUrl}?autoplay=1&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="advantages-description">
+                            ${washServices[i].description}
+
+
+                        </div>
+                    `)
+                    updateAdvantagesHeight($rightSection);
+                    $container.addClass('advantage-selected-list-menu');
+
+                });
+                $washServicesList.append(el3)
+            }
+            updateAdvantagesHeight($('.advantages-list-menu-left'));
+        }
+
+        function updateAdvantagesHeight(target) {
+            if (document.body.offsetWidth > 660) return;
+            let $advantages = $('.advantages-list-menu');
+            $advantages.delay(400).height(target.outerHeight());
+        }
+
+        function toLeftSide() {
+            let $advantages = $('.advantages-list-menu');
+            $advantages.removeClass('advantage-selected-list-menu');
+            updateAdvantagesHeight($('.advantages-list-menu-left'))
+        }
+
+    </script>
+
+    <style>
+
+
+    </style>
+</body>
+
+</html>

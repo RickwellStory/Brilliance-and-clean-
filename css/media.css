@@ -1,0 +1,61 @@
+@media screen and (max-width: 420px) {
+div#reviews {
+height:1350px
+}
+
+div#reviews-center {
+display:block
+}
+
+div.reviews-box {
+width:90%
+}
+
+.reviews-center {
+font-size:12px
+}
+}
+
+@media (min-width: 2880px) {
+.header-text {
+margin-top:35%;
+margin-bottom:14%
+}
+
+.header_text h3 {
+line-height:90px;
+font-size:70px
+}
+
+.header_text h2 {
+font-size:90px
+}
+}
+
+@media (max-width: 325px) {
+div.header_text h2 {
+font-size:28px
+}
+
+div.header_text {
+margin-top:3%
+}
+}
+
+@media (max-width: 1070px) {
+div.scroll-box {
+bottom:190px
+}
+}
+
+@media (max-width: 940px) {
+div.scroll-box {
+bottom:225px
+}
+}
+
+@media (max-width: 810px) {
+div.scroll-box {
+display:none
+}
+}
